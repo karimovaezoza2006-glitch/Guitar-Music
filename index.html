@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <!-- AOS CSS ulash -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body class="bg-[#000]">
+    <!-- 1-Header top section start -->
+    <header class="  pt-[5px] sticky top-0 z-999 bg-[#000]">
+       <div class="container1">
+         <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div data-aos="fade-right">
+                <h2 class=" font-normal text-[12px] text-center sm:text-left text-[rgba(255,255,255,0.13)]">
+                    Ваш город: <span class="text-[rgba(255,255,255,0.6)]">Самара</span>
+                </h2>
+            </div>
+            <div class="flex items-center justify-center gap-2" data-aos="zoom-in">
+                <img src="./image/watsapt.svg" class="w-[18px] h-[18px]">
+                <img src="./image/telegram.svg" class="w-[18px] h-[18px]">
+                <img src="./image/vk.svg" class="w-[18px] h-[18px]">
+                <img src="./image/vayber.svg" class="w-[18px] h-[18px]">
+                <img src="./image/you tobe.svg" class="w-[18px] h-[18px]">
+                <img src="./image/instagram.svg" class="w-[18px] h-[18px]">
+            </div>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-2" data-aos="fade-left">
+                <img src="./image/telephone.svg" class="inline-block">
+                <h2 class="font-extralight text-[10px] text-[rgba(255,255,255,0.6)]">8 (800) 100 26 80</h2>
+                <h2 class="font-extralight text-[10px] text-[rgba(255,255,255,0.6)]"> ЕЖЕДНЕВНО</h2>
+                <h2 class="font-extralight text-[10px] text-[rgba(255,255,255,0.6)]"> 10:00-20:00</h2>
+            </div>
+        </div>
+        <hr class="border w-full h-0 border-solid border-[#242424] mt-2" data-aos="fade-up">
+       </div>
+    </header>
+    <!-- 1-Header top section end -->
+
+    <!-- 2-Header bottom section start -->
+   <section class="container1 ">
+  <div class="flex flex-col sm:flex-row items-center justify-between gap-6 sm:gap-12 lg:gap-[100px]" data-aos="fade-up">
+    
+    <!-- SEARCH -->
+    <form class="flex items-center gap-2 sm:gap-[10px] group" onsubmit="event.preventDefault(); alert('Qidiruv: ' + this.query.value);">
+      <img src="./image/search.svg" class="w-5 h-5 sm:w-6 sm:h-6 transition-transform duration-300 group-hover:scale-110">
+      <input type="text" name="query" placeholder="ПОИСК..." 
+             class=" px-3 py-1 text-white text-sm focus:outline-none focus:ring-2 focus:ring-white transition-all duration-300 w-28 sm:w-36 md:w-48 lg:w-60">
+    </form>
+
+    <!-- GUITAR -->
+    <div data-aos="zoom-in">
+      <img src="./image/guitar.svg" class="w-[180px] h-[130px] sm:w-[220px] sm:h-[150px] md:w-[260px] md:h-[180px] lg:w-[301px] lg:h-[207px] transition-transform duration-500 hover:scale-105">
+    </div>
+
+    <!-- ICONS -->
+    <div class="flex items-center gap-3 sm:gap-[10px]" data-aos="fade-left">
+      <img src="./image/like.svg" class="w-6 h-6 cursor-pointer transition-transform duration-300 hover:scale-110 hover:opacity-80">
+      <img src="./image/korzinka.svg" class="w-6 h-6 cursor-pointer transition-transform duration-300 hover:scale-110 hover:opacity-80">
+    </div>
+
+  </div>
+</section>
+    <!-- 2-Header bottom section end -->
+
+    <!-- 3-Links section start -->
+   <section class="container1 py-[10px] ">
+  <div class="overflow-x-auto whitespace-nowrap scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent">
+    <ul class="font-normal text-[7px] sm:text-xs md:text-sm lg:text-base text-white flex items-center justify-center gap-[16px] px-4 min-w-max" data-aos="fade-down">
+      <li><a href="./katalok.html" class="relative group">КАТАЛОГ
+        <span class="absolute left-0 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+      </a></li>
+      <li><a href="#" class="relative group">УСЛУГИ
+        <span class="absolute left-0 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+      </a></li>
+      <li><a href="#" class="relative group">О НАС
+        <span class="absolute left-0 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+      </a></li>
+      <li><a href="#" class="relative group">ДОСТАВКА
+        <span class="absolute left-0 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+      </a></li>
+      <li><a href="#" class="relative group">ОТЗЫВЫ
+        <span class="absolute left-0 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+      </a></li>
+      <li><a href="#" class="relative group">ОБУЧЕНИЕ
+        <span class="absolute left-0 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+      </a></li>
+      <li><a href="#" class="relative group">КОНТАКТЫ
+        <span class="absolute left-0 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+      </a></li>
+      <li><a href="#" class="relative group">ОПТ
+        <span class="absolute left-0 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full"></span>
+      </a></li>
+    </ul>
+  </div>
+</section>
+
+    <!-- 3-Links section end -->
+     <section class="relative w-full h-[80vh] bg-cover bg-center flex items-center"
+           style="background-image: url('./image/showcase.svg');"
+           data-aos="fade-up" data-aos-duration="1000">
+    <div class="absolute inset-0 bg-black/30"></div>
+    <div class="relative z-10 w-full md:w-1/2 md:ml-auto md:mr-20 text-center md:text-left px-6">
+      <h2 class="text-3xl md:text-5xl font-semibold text-gray-200">Takamine</h2>
+      <p class="text-gray-300 mt-2 text-lg">гитара</p>
+      <p class="text-gray-400 mt-1">винтажная 12-струнная</p>
+      <p class="text-gray-400 mb-6">GJ72CE-12BSB</p>
+
+      <a href="#"
+         class="inline-block bg-orange-600 hover:bg-orange-700 transition text-white font-medium px-6 py-2 rounded-md shadow-lg">
+        подробнее
+      </a>
+    </div>
+  </section>
+
+    <!-- 4-Showcase section end -->
+
+    <!-- 5-Hero section start -->
+     <section class=" py-12">
+  <div class="container1">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <!-- Karta 1 -->
+      <div class="relative group overflow-hidden rounded-lg" data-aos="fade-up">
+        <img src="./image/hero1.svg" alt="gitaralar" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+        <div class="absolute inset-0 bg-[#ffffff18] bg-opacity-50 group-hover:bg-opacity-60 transition"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+          <img src="./image/hero.svg" class="w-[130px] h-[150px] mb-2" alt="pick">
+          <span class="font-normal text-2xl text-center text-white">Гитары</span>
+        </div>
+      </div>
+
+      <!-- Karta 2 -->
+      <div class="relative group overflow-hidden rounded-lg" data-aos="fade-up" data-aos-delay="100">
+        <img src="./image/hero2.svg" alt="ukulele" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+        <div class="absolute inset-0 bg-[#ffffff18] bg-opacity-50 group-hover:bg-opacity-60 transition"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+           <img src="./image/hero.svg" class="w-[130px] h-[150px] mb-2" alt="pick">
+          <span class="font-normal text-2xl text-center text-white">Укулеле</span>
+        </div>
+      </div>
+
+      <!-- Karta 3 -->
+      <div class="relative group overflow-hidden rounded-lg" data-aos="fade-up" data-aos-delay="200">
+        <img src="./image/hero3.svg" alt="aksessuarlar" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+        <div class="absolute inset-0 c bg-opacity-50 group-hover:bg-opacity-60 transition"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+         <img src="./image/hero.svg" class="w-[130px] h-[150px] mb-2" alt="pick">
+          <span class="font-normal text-2xl text-center text-white">Аксессуары</span>
+        </div>
+      </div>
+
+      <!-- Karta 4 -->
+      <div class="relative group overflow-hidden rounded-lg" data-aos="fade-up" data-aos-delay="300">
+        <img src="./image/hero4.svg" alt="strunalar" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+        <div class="absolute inset-0 bg-[#ffffff18] bg-opacity-50 group-hover:bg-opacity-60 transition"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+          <img src="./image/hero.svg" class="w-[130px] h-[150px] mb-2" alt="pick">
+          <span class="font-normal text-2xl text-center text-white">Струны</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    </section>
+    <!-- 5-Hero section end -->
+
+    <!-- 6-Logo section start -->
+    <section class="bg-[#cc7408]">
+    <div class="container1">
+        <!-- Birinchi qatorda logolar -->
+        <div class="flex flex-col sm:flex-row items-center justify-between">
+        <img src="./image/logo1.svg" class="w-[100px] h-[110px]" data-aos="fade-up">
+        <img src="./image/logo2.svg" class="w-[100px] h-[110px]" data-aos="fade-up" data-aos-delay="100">
+        <img src="./image/logo3.svg" class="w-[100px] h-[110px]" data-aos="fade-up" data-aos-delay="200">
+        <img src="./image/logo4.svg" class="w-[100px] h-[110px]" data-aos="fade-up" data-aos-delay="300">
+        <img src="./image/logo5.svg" class="w-[100px] h-[110px]" data-aos="fade-up" data-aos-delay="400">
+        </div>
+        <!-- Ikkinchi qatorda logolar -->
+        <div class="flex flex-col sm:flex-row items-center justify-between">
+        <img src="./image/logo6.svg" class="w-[100px] h-[110px]" data-aos="zoom-in">
+        <img src="./image/logo7.svg" class="w-[100px] h-[110px]" data-aos="zoom-in" data-aos-delay="100">
+        <img src="./image/logo8.svg" class="w-[100px] h-[110px]" data-aos="zoom-in" data-aos-delay="200">
+        <img src="./image/logo9.svg" class="w-[100px] h-[110px]" data-aos="zoom-in" data-aos-delay="300">
+        <img src="./image/logo10.svg" class="w-[100px] h-[110px]" data-aos="zoom-in" data-aos-delay="400">
+        </div>
+    </div>
+    </section>
+    <!-- 6-Logosection end -->
+
+    <!-- 7-Products section start -->
+    <section class="container1 py-[10px]">
+            <h2 class="font-normal text-4xl leading-[0.97222] text-center text-white py-[40px] ">Популярные товары  </h2>
+          <div class="swiper mySwiper">
+    <div class="swiper-wrapper flex" >
+      <div class="swiper-slide " >
+        <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+        
+    </div>
+      <div class="swiper-slide">
+       <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+    </div>
+      <div class="swiper-slide">
+       <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+    </div>
+      <div class="swiper-slide">
+       <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+    </div>
+      <div class="swiper-slide">
+        <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+    </div>
+      <div class="swiper-slide">
+      <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+    </div>
+      <div class="swiper-slide">
+        <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+    </div>
+      <div class="swiper-slide">
+        <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+    </div>
+      <div class="swiper-slide">
+        <img src="./image/product.svg" class="w-[200px] h-[240px]  bg-[#3b3a40]  rounded-[30px_30px_67px_0]" >
+        <p class="font-normal text-sm leading-[2.5] text-white text-left px-[10px]">Укулеле</p>
+        <h3 class="font-normal text-xl leading-[1.45833] text-white text-left px-[10px]">Enya EUC-MAD</h3>
+        <div class="flex items-center justify-between px-[10px]">
+            <p class="font-normal text-sm leading-[2.5] text-[rgba(255,255,255,0.6)] text-left "><del>₽24 890 </del><span class="block" >₽24 890</span></p>
+         <div class="flex">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.19231 0L7.58257 4.849L12.0815 4.849L8.4418 7.84585L9.83206 12.6949L6.19231 9.69801L2.55256 12.6949L3.94282 7.84585L0.303073 4.849L4.80205 4.849L6.19231 0Z" fill="#FFD600" />
+</svg>
+         </div>
+         
+        </div>
+    </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+    </section>
+    <!-- 7-Products section end -->
+
+    <!-- 8-Services section start -->
+    <section class="container1">
+        <h2 class="font-normal text-4xl leading-[0.97222] text-center text-white py-[45px]">Услуги</h2>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-6  text-white">
+  <!-- Card 1 - OBUCHENIE -->
+  <div class="relative group w-full md:w-64 h-64 overflow-hidden rounded-md shadow-lg">
+    <img src="./image/image1.svg" alt="Obuchenie" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500 ease-in-out" />
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+      <p class="text-white text-lg font-semibold scale-90 group-hover:scale-100 transition-transform duration-500">ОБУЧЕНИЕ</p>
+    </div>
+  </div>
+
+  <!-- Card 2 - Service Info -->
+  <div class="relative group w-full md:w-64 h-64 overflow-hidden rounded-md shadow-lg">
+    <img src="./image/image2.svg" alt="Service Info" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500 ease-in-out" />
+    <div class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center text-center px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+      <p class="text-sm leading-relaxed scale-90 group-hover:scale-100 transition-transform duration-500">
+        В нашей гитарной мастерской мы оказываем полный спектр услуг по ремонту и обслуживанию музыкальных инструментов, в том числе и изготовление на заказ.
+      </p>
+    </div>
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-orange-400 text-sm font-semibold cursor-pointer group-hover:underline z-10">
+      ПОКАЗАТЬ ЕЩЁ
+    </div>
+  </div>
+
+  <!-- Card 3 - REMONT -->
+  <div class="relative group w-full md:w-64 h-64 overflow-hidden rounded-md shadow-lg">
+    <img src="./image/image3.svg" alt="Remont" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500 ease-in-out" />
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+      <p class="text-white text-lg font-semibold scale-90 group-hover:scale-100 transition-transform duration-500">РЕМОНТ</p>
+    </div>
+  </div>
+</div>
+
+    </section>
+    <!-- 8-Services section end -->
+
+    <!-- 9-Club section start -->
+ <section class="py-10 ">
+  <div class="relative container1 h-[400px] lg:h-[450px] overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="./image/club.svg"
+        alt="Guitar"
+        class="w-full h-full object-cover rounded-r-[171px]"
+      />
+      <div class="absolute inset-0 bg-orange-700 opacity-60 rounded-r-[171px]"></div>
+    </div>
+    <!-- Form box -->
+    <div class="relative z-10 w-full max-w-[620px] h-[258px] bg-white rounded-[30px] shadow-xl 
+                flex flex-col justify-center px-6 lg:px-10 py-6 
+                lg:translate-x-[-40px] ml-auto mt-10
+                transition duration-500">
+      
+      <!-- Text content -->
+      <div>
+        <h3 class="text-sm text-gray-600 uppercase tracking-wide font-medium">ВСТУПАЙ В КЛУБ</h3>
+        <h2 class="text-2xl sm:text-3xl font-bold text-orange-600">GUITAR LAVKA</h2>
+        <p class="text-sm text-gray-500 mt-1">
+          Полезные письма об инструментах и мероприятиях
+        </p>
+      </div>
+      <!-- Form -->
+      <form class="mt-4 flex flex-col sm:flex-row items-center gap-3">
+        <input type="email"placeholder="Ваш email ..." class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-500 transition duration-300" required/>
+        <button
+          type="submit"
+          class="bg-[#cc7408] hover:bg-orange-700 transition-colors duration-300 text-white px-4 py-2 rounded-md shadow-md"
+        >
+         <img src="./image/telegram.svg">
+        </button>
+      </form>
+
+      <!-- Consent -->
+      <p class="text-xs text-gray-400 italic mt-2">
+        Я даю согласие на обработку своих персональных данных
+      </p>
+    </div>
+  </div>
+</section><hr>
+    <!-- 9-Club section end -->
+
+    <!-- 10-Footer section start -->
+   <footer class="py-[50px]"> 
+  <div class="container1">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-6 sm:gap-12 lg:gap-[100px]">
+
+      <div data-aos="fade-right">
+        <img src="./image/footer logo.svg" class="w-[386px] h-[185px]">
+        <p class="font-normal text-lg text-[#c4c4c4]">
+          Мы работаем по всей России, <br>поэтому можем сделать онлайн-показ<br>
+          инструмента и доставить его до вашей двери
+        </p><br>
+        <p class="font-[15px] text-lg text-[#c4c4c4]">Остались вопросы?</p>
+        <p class="font-[24px] text-lg text-[#fff]">8 (800) 100-26-80</p><br>
+        <p class="font-[15px] text-lg text-[#c4c4c4]">ЕЖЕДНЕВНО 10:00 - 20:00</p>
+
+        <!-- Social icons -->
+        <div class="flex items-center justify-start gap-[15px]" data-aos="zoom-in">
+          <img src="./image/watsapt.svg" class="w-[18px] h-[18px]">
+          <img src="./image/telegram.svg" class="w-[18px] h-[18px]">
+          <img src="./image/vk.svg" class="w-[18px] h-[18px]">
+          <img src="./image/vayber.svg" class="w-[18px] h-[18px]">
+          <img src="./image/you tobe.svg" class="w-[18px] h-[18px]">
+          <img src="./image/instagram.svg" class="w-[18px] h-[18px]">
+        </div><br>
+
+        <h2 class="font-normal text-lg text-[#c4c4c4]">СПОСОБЫ ОПЛАТЫ</h2>
+        <img src="./image/icons.svg">
+        <p class="font-normal text-[15px] text-[#c4c4c4] py-[70px]">
+          © 2021 GuitarLavka - музыкальный магазин<br>Политика конфиденциальности
+        </p>
+      </div>
+
+      <div class="bg-black text-white py-10 px-4" data-aos="fade-left">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-start gap-8">
+
+          <!-- 3 ustunli menyu -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 flex-1 text-sm">
+            <!-- KATALOG -->
+            <div data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-lg font-semibold mb-2">КАТАЛОГ</h3>
+              <ul class="space-y-1 text-gray-300">
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Гитары</a></li>
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Укулеле</a></li>
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Аксессуары</a></li>
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Струны</a></li>
+              </ul>
+            </div>
+
+            <!-- СЕРВИС -->
+            <div data-aos="fade-up" data-aos-delay="200">
+              <h3 class="text-lg font-semibold mb-2">СЕРВИС</h3>
+              <ul class="space-y-1 text-gray-300">
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Оплата</a></li>
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Гарантия</a></li>
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Доставка</a></li>
+              </ul>
+            </div>
+
+            <!-- УСЛУГИ -->
+            <div data-aos="fade-up" data-aos-delay="300">
+              <h3 class="text-lg font-semibold mb-2">УСЛУГИ</h3>
+              <ul class="space-y-1 text-gray-300">
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Ремонт</a></li>
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Онлайн подбор</a></li>
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Обучение</a></li>
+                <li><a href="#" class="hover:text-orange-500 transition duration-300">Комиссионка</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Instagram (iPhone mockup) -->
+          <div class="flex justify-center lg:justify-end" data-aos="fade-left" data-aos-delay="400">
+            <img
+              src="./image/footer.svg"
+              alt="Instagram mockup"
+              class="w-[243px] h-[442px] rounded-[28px]"
+            />
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+    <!-- 10-Footer section end -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     
+<script>
+  AOS.init({
+    duration: 1000, 
+    once: true     
+  });
+</script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
