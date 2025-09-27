@@ -1,0 +1,13 @@
+Ternary operatori-bu Java Script shartini tekshirish va natijaga qarab
+ikki xil qiymatdan birini tanlash uchun ishlatiladigan qisqa va ixcham 
+yozuv shakli. Bu operator 3ta qismdan iborat bo'lgani uchun "ternary"
+deb ataladi. 
+Condition-Shart, true yoki folse qiymatini qaytarishi kerak.
+const number=5;
+const result= number >0 ? "Positive" : "Negative";
+console.log(result);
+Ternary operatorlarini bir nechta shartlarga ishlatish ham mumkin.
+lekin bunday holat kodni o'qoshni qiyinlashtiradi. 
+Ternary operator afzalliklari:
+1.Kichik va oddiy shartlar uchun yozuvni qisqartiradi. 
+2.Kodni ixchamlashtiradi. 
